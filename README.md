@@ -21,20 +21,20 @@
 6. CUDA 11.0+  
 
 ## 注意力结构
-![image]()  
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/attention%20structure/attention.jpg)  
 
 ## 模型结构
 Encoder  
 由全连接层、一维分组卷积多头注意力机制组成  
-![image]()  
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/model%20structure/encoder.jpg)  
 
 Decoder  
 由全连接层、一维分组卷积多头注意力机制组成  
-![image]() 
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/model%20structure/decoder.jpg) 
 
 Sequence Transformer  
 合并Encoder-Decoder，拼接全连接层  
-![image]() 
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/model%20structure/transformer.jpg) 
 
 ## 注意事项
 1. 时序数据推理，删除了标准Transformer的位置掩码、位置编码、前馈层等机制
@@ -55,13 +55,13 @@ Sequence Transformer
 
 ## 预测效果
 sequence_1  
-![image]()  
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/sample/sequence1.jpg)  
 
 sequence_2  
-![image]() 
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/sample/sequence2.jpg) 
 
 sequence_3  
-![image]()  
+![image](https://github.com/JJASMINE22/Sequence-Transformer-for-Long-term-sequence-forecasting/blob/main/sample/sequence3.jpg)  
 
 ## 参考资料
 https://arxiv.org/pdf/1706.03762.pdf
